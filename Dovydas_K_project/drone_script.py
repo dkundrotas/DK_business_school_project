@@ -17,7 +17,7 @@ def main():
 
     print("All good, app is running. Reminder to myself -> to stop app from running press Ctrl+C")
     # The app will run at http://127.0.0.1:8050/ by default.
-    app.run_server(debug=True)
+    app.run(debug=True)
 
 if __name__ == "__main__":
     main()
